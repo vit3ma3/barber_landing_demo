@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Барбершоп Север — мужские стрижки и борода в Мурманске</title>
+  <meta name="description" content="Мужские стрижки, машинка, оформление бороды и детские стрижки. Три мастера, запись в Telegram за минуту. Мурманск, ул. Полярная, 1.">
+  <meta name="theme-color" content="#16181b">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Барбершоп Север">
+  <meta property="og:title" content="Барбершоп Север — стрижка и борода без спешки">
+  <meta property="og:description" content="Три мастера, понятные цены, запись в Telegram за минуту. Мурманск, ул. Полярная, 1.">
+  <meta property="og:url" content="https://vit3ma3.github.io/barber_landing_demo/">
+  <meta property="og:image" content="https://vit3ma3.github.io/barber_landing_demo/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="Барбершоп Север — наверх">
+        <svg class="logo__mark" viewBox="0 0 32 32" aria-hidden="true"><use href="#mark"/></svg>
+        <span>Север</span>
+      </a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#services">Услуги</a>
+        <a href="#masters">Мастера</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#faq">Вопросы</a>
+        <a href="#contacts">Контакты</a>
+        <a href="https://t.me/barber_sever_demo_bot" class="nav__cta" target="_blank" rel="noopener">Записаться</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="container hero__inner">
+        <p class="eyebrow">Мурманск · ул. Полярная, 1</p>
+        <h1 class="hero__title">Барбершоп<br><span>Север</span></h1>
+        <p class="hero__lead">Стрижка и борода без спешки. Три мастера, понятные цены и&nbsp;запись в&nbsp;Telegram за&nbsp;минуту — без звонков и&nbsp;ожидания.</p>
+        <div class="hero__actions">
+          <a href="https://t.me/barber_sever_demo_bot" class="btn btn--primary" target="_blank" rel="noopener">
+            <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#tg"/></svg>
+            Записаться в Telegram
+          </a>
+          <a href="#services" class="btn btn--ghost">Услуги и цены</a>
+        </div>
+        <ul class="hero__facts">
+          <li><strong>от 800 ₽</strong><span>стрижка машинкой</span></li>
+          <li><strong>7 дней</strong><span>в неделю</span></li>
+          <li><strong>3 мастера</strong><span>в команде</span></li>
+        </ul>
+      </div>
+      <svg class="hero__lines" viewBox="0 0 600 600" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="1">
+          <circle cx="300" cy="300" r="120"/><circle cx="300" cy="300" r="180"/>
+          <circle cx="300" cy="300" r="240"/><circle cx="300" cy="300" r="299"/>
+          <path d="M300 0v600M0 300h600"/>
+        </g>
+      </svg>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">01 — Услуги</p>
+          <h2 class="section__title">Услуги и цены</h2>
+          <p class="section__note">Цена фиксированная и не зависит от мастера.</p>
+        </div>
+        <ul class="price-list">
+          <li class="price">
+            <div class="price__main"><h3>Мужская стрижка</h3><span class="price__dur">60 мин</span></div>
+            <span class="price__dots" aria-hidden="true"></span>
+            <span class="price__value">1 500 ₽</span>
+          </li>
+          <li class="price">
+            <div class="price__main"><h3>Стрижка машинкой</h3><span class="price__dur">30 мин</span></div>
+            <span class="price__dots" aria-hidden="true"></span>
+            <span class="price__value">800 ₽</span>
+          </li>
+          <li class="price">
+            <div class="price__main"><h3>Оформление бороды</h3><span class="price__dur">30 мин</span></div>
+            <span class="price__dots" aria-hidden="true"></span>
+            <span class="price__value">900 ₽</span>
+          </li>
+          <li class="price price--accent">
+            <div class="price__main"><h3>Стрижка + борода</h3><span class="price__dur">90 мин · выгоднее на 200 ₽</span></div>
+            <span class="price__dots" aria-hidden="true"></span>
+            <span class="price__value">2 200 ₽</span>
+          </li>
+          <li class="price">
+            <div class="price__main"><h3>Детская стрижка</h3><span class="price__dur">45 мин</span></div>
+            <span class="price__dots" aria-hidden="true"></span>
+            <span class="price__value">1 000 ₽</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="masters">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">02 — Команда</p>
+          <h2 class="section__title">Мастера</h2>
+          <p class="section__note">Выберите мастера при записи или доверьтесь тому, кто свободен.</p>
+        </div>
+        <div class="masters">
+          <article class="master">
+            <div class="master__photo" aria-hidden="true"><span>И</span></div>
+            <h3 class="master__name">Иван</h3>
+            <p class="master__role">Классика и аккуратные переходы</p>
+            <p class="master__days">Пн–Пт</p>
+          </article>
+          <article class="master">
+            <div class="master__photo" aria-hidden="true"><span>А</span></div>
+            <h3 class="master__name">Артём</h3>
+            <p class="master__role">Борода, бритьё, текстурные стрижки</p>
+            <p class="master__days">Ср–Вс</p>
+          </article>
+          <article class="master">
+            <div class="master__photo" aria-hidden="true"><span>Д</span></div>
+            <h3 class="master__name">Денис</h3>
+            <p class="master__role">Короткие стрижки и детские</p>
+            <p class="master__days">Пн, Вт, Сб, Вс</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">03 — Отзывы</p>
+          <h2 class="section__title">Что говорят гости</h2>
+        </div>
+        <div class="reviews">
+          <figure class="review">
+            <span class="review__tag">Пример отзыва</span>
+            <blockquote>«Записался в Telegram за минуту, пришёл — никто не заставил ждать. Иван подстриг ровно так, как я объяснил на пальцах».</blockquote>
+            <figcaption>Алексей · мужская стрижка</figcaption>
+          </figure>
+          <figure class="review">
+            <span class="review__tag">Пример отзыва</span>
+            <blockquote>«Наконец-то борода выглядит как задумано, а не как получилось. Артём подсказал, как поддерживать форму дома».</blockquote>
+            <figcaption>Михаил · оформление бороды</figcaption>
+          </figure>
+          <figure class="review">
+            <span class="review__tag">Пример отзыва</span>
+            <blockquote>«Водила сына восьми лет. Денис быстро нашёл с ним общий язык, обошлось без слёз. Бот сам напомнил о визите накануне».</blockquote>
+            <figcaption>Ольга · детская стрижка</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="faq">
+      <div class="container container--narrow">
+        <div class="section__head">
+          <p class="eyebrow">04 — Вопросы</p>
+          <h2 class="section__title">Частые вопросы</h2>
+        </div>
+        <div class="faq">
+          <details class="faq__item">
+            <summary>Как записаться?</summary>
+            <div class="faq__body"><p>Нажмите «Записаться в Telegram» — бот предложит выбрать услугу, мастера, дату и свободное время. Подтверждение придёт сразу.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Можно перенести или отменить запись?</summary>
+            <div class="faq__body"><p>Да, в боте в разделе «Мои записи». Будем благодарны, если сообщите об отмене хотя бы за пару часов.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Вы напоминаете о визите?</summary>
+            <div class="faq__body"><p>Бот присылает напоминание за сутки и за 2 часа до записи.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Можно прийти без записи?</summary>
+            <div class="faq__body"><p>Можно, если у мастера есть окно. Но с записью надёжнее — особенно вечером и в выходные.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>С какого возраста стрижёте детей?</summary>
+            <div class="faq__body"><p>С 4 лет. Детская стрижка занимает около 45 минут — малышу не придётся долго сидеть.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary>Какие способы оплаты?</summary>
+            <div class="faq__body"><p>Наличные, карта и оплата по QR-коду через СБП.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contacts" id="contacts">
+      <div class="container contacts__inner">
+        <div>
+          <p class="eyebrow">05 — Контакты</p>
+          <h2 class="section__title">Ждём в гости</h2>
+          <dl class="contacts__list">
+            <div><dt>Адрес</dt><dd>г. Мурманск, ул. Полярная, 1</dd></div>
+            <div><dt>Часы работы</dt><dd>Пн–Пт 10:00–21:00<br>Сб–Вс 11:00–19:00</dd></div>
+            <div><dt>Телефон</dt><dd><a href="tel:+79000000000">+7 (900) 000-00-00</a></dd></div>
+          </dl>
+        </div>
+        <div class="contacts__cta">
+          <p>Свободное время видно сразу в боте — выберите удобное и приходите.</p>
+          <a href="https://t.me/barber_sever_demo_bot" class="btn btn--primary" target="_blank" rel="noopener">
+            <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#tg"/></svg>
+            Записаться в Telegram
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>Демо-сайт. Барбершоп вымышленный.</p>
+      <p>© <span id="year">2026</span> «Барбершоп Север»</p>
+    </div>
+  </footer>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="mark" viewBox="0 0 32 32">
+      <path fill="none" stroke="currentColor" stroke-width="2" d="M16 3v26M5 9.5l22 13M27 9.5l-22 13"/>
+      <circle cx="16" cy="16" r="3.5" fill="currentColor"/>
+    </symbol>
+    <symbol id="tg" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.7.8l-4.8-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2L6.5 13.2l-4.7-1.5c-1-.3-1-1 .2-1.5L20.5 3.1c.9-.3 1.6.2 1.4 1.2Z"/>
+    </symbol>
+  </svg>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
